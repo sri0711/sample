@@ -1,0 +1,173 @@
+body {
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+	font-family: monospace;
+}
+.first {
+	position: relative;
+	height: 100vh;
+}
+.video {
+	min-height: 100vh;
+	min-width: 1200px;
+	height: 100vh;
+	width: 100vw;
+}
+.sub {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.second {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.second .left {
+	display: flex;
+	height: 100vh;
+	width: 50vw;
+}
+
+.second .left .cdn {
+	position: absolute;
+	margin: 50vh;
+	margin-left: 20vw;
+}
+.second .left .title {
+	display: flex;
+}
+
+.second .left .title h1 {
+	font-size: 50px;
+	padding-top: 45px;
+}
+
+.second .right {
+	display: flex;
+	height: 100vh;
+	width: 50vw;
+}
+.second .right img {
+	opacity: 0.4;
+	border-radius: 30px;
+	padding: 10px;
+	height: 50vh;
+	width: 25vw;
+}
+.second .right .img1 {
+	animation-name: anime1;
+	animation-duration: 4s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+.second .right .img2 {
+	animation-name: anime2;
+	animation-duration: 4s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+.second .right .img3 {
+	animation-name: anime3;
+	animation-duration: 4s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+.second .right .img4 {
+	animation-name: anime4;
+	animation-duration: 4s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+
+.third {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.third .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 150px;
+}
+.third .right {
+	padding-left: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.third .right .ct {
+	margin: 20px;
+}
+
+@keyframes anime1 {
+	0% {
+		opacity: 0.4;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.4;
+	}
+	75% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 0.4;
+	}
+}
+@keyframes anime2 {
+	0% {
+		opacity: 0.4;
+	}
+	25% {
+		opacity: 0.4;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 0.4;
+	}
+}
+@keyframes anime3 {
+	0% {
+		opacity: 0.4;
+	}
+	25% {
+		opacity: 0.4;
+	}
+	50% {
+		opacity: 0.4;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.4;
+	}
+}
+@keyframes anime4 {
+	0% {
+		opacity: 0.4;
+	}
+	25% {
+		opacity: 0.4;
+	}
+	50% {
+		opacity: 0.4;
+	}
+	75% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
